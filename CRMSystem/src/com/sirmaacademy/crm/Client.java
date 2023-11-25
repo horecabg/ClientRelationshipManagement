@@ -1,11 +1,11 @@
 package com.sirmaacademy.crm;
 
 public class Client {
-private int id;
-private String name;
-private String industry;
-private String contactPerson;
-private Double revenue;
+    private int id;
+    private String name;
+    private String industry;
+    private String contactPerson;
+    private Double revenue;
 
     public Client(int id, String name, String industry, String contactPerson, Double revenue) {
         this.id = id;
@@ -57,3 +57,4 @@ private Double revenue;
         return this.getId() + ", " + this.getName() + ", " + this.getIndustry() + ", " + this.getContactPerson() + ", " + this.getRevenue();
     }
 }
+
