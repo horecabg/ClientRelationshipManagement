@@ -1,8 +1,13 @@
 package com.sirmaacademy.crm;
 
+import com.opencsv.CSVReader;
+import com.opencsv.CSVWriter;
+
 public class ClientManagementApp {
     public static void main(String[] args) {
 // Implement file operations for XML/SQLite
+        CSVReader fileReader;
+        CSVWriter fileWriter = null;
      //   Service service = new ClientService(fileReader, fileWriter);
      //   Manager manager = new ClientManager(service);
         System.out.println("Welcome to the Client Management System");
